@@ -1,0 +1,37 @@
+nav {
+    background-color: darkblue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav li {
+    text-decoration: none;
+    margin: 100px;
+    list-style-type:none;
+    display: inline; 
+}
+li:first-child {
+    margin-left: 0px;
+}
+li:last-child {
+    margin-left: 600px;
+}
+a:hover {
+    background-color: lightblue;
+    color: gray;
+    font-weight: bold;
+}
+a:active {
+    color: red;
+    font-style:oblique ;
+}
+a:visited {
+    color: yellow;
+}
+input:focus {
+    color: green;
+    font-size: 20px;
+    border: 3px solid aqua;
+}
+.currentPage {
+    background-color: grey;
+}
